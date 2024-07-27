@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Hotel</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Hotel Overview</h2>
+        <p>Enjoy the best services at our hotel...</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service" onclick="useService('Book a Cab')">
+            <h3>Book a Cab</h3>
+        </div>
+        <div class="service" onclick="useService('Gym Access')">
+            <h3>Gym Access</h3>
+        </div>
+        <div class="service" onclick="useService('Order Food')">
+            <h3>Order Food</h3>
+        </div>
+        <div class="service" onclick="useService('Call Staff')">
+            <h3>Call Staff</h3>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; Footer</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
